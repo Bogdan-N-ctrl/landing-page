@@ -156,7 +156,7 @@ body {
 .call2action {
     max-width: 1000px;
     /* background-color: yellow; */
-    
+    border-radius: 10px;
     background-color: var(--accent-color);
     
     color: var(--light-background-color);
