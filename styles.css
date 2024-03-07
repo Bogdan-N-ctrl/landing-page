@@ -14,7 +14,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 100px;
+    padding: 15px 280px;
 
 }
 .logo {
@@ -30,7 +30,11 @@ body {
     gap: 20px;
 
 }
-
+.hero p {
+    color: var(--secondary-color);
+    font-size: 18px;
+    font-weight: 100;
+}
 .navigation a {
     text-decoration: none;
     color: var(--light-background-color);
@@ -43,7 +47,7 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 50px;
-    padding: 50px 100px;
+    padding: 50px 280px;
 }
 
 .hero-left {
@@ -101,11 +105,11 @@ body {
 }
 
 .content-cols {
-    width: 100%;
+    /* width: 100%; */
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    gap: 30px;
+    justify-content: center;
+    gap: 80px;
     flex-wrap: wrap;
     
 }
@@ -154,8 +158,8 @@ body {
     
 }
 .call2action {
-    max-width: 1000px;
     /* background-color: yellow; */
+
     border-radius: 10px;
     background-color: var(--accent-color);
     
@@ -163,7 +167,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px 100px;
+    padding: 50px 180px;
     gap: 50px;
 }
 
@@ -175,6 +179,7 @@ body {
     border: 2px solid var(--light-background-color);
     font-size: 20px;
     font-weight: 900;
+    flex-shrink: 0;
 }
 .footer {
     background-color: var(--dark-background-color);
@@ -189,4 +194,5 @@ body {
     --dark-background-color: #1f2937;
     --light-background-color: #f9faf8;
     --accent-color: #3882f6;
+    --secondary-color: #e5e7eb;
 }
